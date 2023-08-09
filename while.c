@@ -1,14 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int n;
-	printf("enter number: \n");
-	scanf("%d",&n);
-	int i=0;
-	for(i; i<=n;i++);
+	int i=8;
+	while(i<50)
 	{
-		printf("%d\n",i);
+		printf("repeat i %d\n",i);
+		i++;
 	}
-	
-	
 }
